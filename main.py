@@ -21,9 +21,9 @@ def send_resources(path):
 
 # respond '/api/custserv' request with tweets with hashtag `#custserv`
 # and `retweet_count` greater than 0
-@app.route('/api/custserv')
-def custserv_responses():
-    return twitter.search.tweets_by_hashtag()
+@app.route('/api/<hashtag>')
+def custserv_responses(hashtag):
+    return twitter.search.tweets_by_hashtag(hashtag = hashtag)
 
 if __name__ == "__main__":
     app.run()
