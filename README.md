@@ -47,10 +47,10 @@ Major dependencies of this project are :
 ### API endpoints
 * `/api/<hashtag>`
 
-  Fetches the latest tweets which have `@hashtag` in them and their retweet count is atleast 1
+  Fetches some tweets which have `@hashtag` in them and their retweet count is atleast 1
 
 ### Twitter Client
-Get latest tweets having a certain `hashtag` and having a threshold retweet `count` by :
+Get some tweets having a certain `hashtag` and having a threshold retweet `count` by :
 ```python
 from twitter_client import TwitterClient
 from credentials import CONSUMER_KEY, CONSUMER_SECRET
