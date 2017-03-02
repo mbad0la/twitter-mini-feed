@@ -47,7 +47,7 @@ Major dependencies of this project are :
 ### API endpoints
 * `/api/<hashtag>`
 
-  Fetches some tweets which have `@hashtag` in them and their retweet count is atleast 1
+  Fetches some tweets which have `#hashtag` in them and their retweet count is atleast 1
 
 ### Twitter Client
 Get some tweets having a certain `hashtag` and having a threshold retweet `count` by :
